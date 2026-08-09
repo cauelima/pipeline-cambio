@@ -23,3 +23,5 @@ def salvar_raw(dados: dict) -> Path:
 if __name__ == "__main__":
     caminho = salvar_raw(coletar_cotacoes())
     print(f"Raw salvo em: {caminho}")
+
+
